@@ -10,7 +10,7 @@ class Checker
             return false;
         } else if(respRate < 30 || respRate > 95) {
             return false;
-        }
+        } 
         return true;
     }
     static void ExpectTrue(bool expression) {
